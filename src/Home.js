@@ -18,7 +18,7 @@ const Home = () => {
           ruta1={"/home"}
         />
         <section className="content">
-          <div className="cointainer-fliuid">
+          <div className="cointainer-fluid">
             <div className="row">
               <div className="col-lg-3 col-6">
                 <div className="small-box bg-info">
