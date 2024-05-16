@@ -114,7 +114,7 @@ const MostrarProveedores = () => {
                 <tbody>
                   {proveedores.map((proveedor, index) => (
                     <tr key={index}>
-                      <td>{proveedor.nombres}</td>
+                      <td>{proveedor.nombre}</td>
                       <td>{proveedor.nit}</td>
                       <td>{proveedor.correo}</td>
                       <td>{proveedor.telefono}</td>

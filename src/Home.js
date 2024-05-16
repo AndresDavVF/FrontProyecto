@@ -53,6 +53,24 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <section className="content">
+          <div className="cointainer-fliuid">
+            <div className="row">
+              <div className="col-lg-3 col-6">
+                <div className="small-box bg-info">
+                  <div className="inner">
+                    <h3>Proveedores</h3>
+                    <p>&nbsp;</p>
+                  </div>
+                  <div className="icon">
+                    <i className="fa fa-edit"></i>
+                  </div>
+                  <Link to={"/proveedores"} className="small-box-footer"> Ver Proveedores</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <Footer></Footer>
     </div>
