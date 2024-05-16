@@ -39,7 +39,7 @@ const Home = () => {
           <div className="cointainer-fliuid">
             <div className="row">
               <div className="col-lg-3 col-6">
-                <div className="small-box bg-info">
+                <div className="small-box bg-aqua">
                   <div className="inner">
                     <h3>Productos</h3>
                     <p>&nbsp;</p>
@@ -57,7 +57,7 @@ const Home = () => {
           <div className="cointainer-fliuid">
             <div className="row">
               <div className="col-lg-3 col-6">
-                <div className="small-box bg-info">
+                <div className="small-box bg-success">
                   <div className="inner">
                     <h3>Proveedores</h3>
                     <p>&nbsp;</p>
