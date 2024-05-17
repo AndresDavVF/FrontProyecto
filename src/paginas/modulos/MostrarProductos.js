@@ -22,7 +22,7 @@ const MostrarProductos = () => {
   const eliminarProductos = async (e, idProducto) => {
     e.preventDefault();
     const response = await APIInvoke.invokeDELETE(`/api/productos/${idProducto}`);
-    console.log(response.msg)
+    
     if (response.msg === "El Producto Fue eliminado") {
       const msg = "El producto Fue eliminado Correctamente";
       swal({
