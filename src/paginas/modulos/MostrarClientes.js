@@ -126,13 +126,13 @@ const MostrarClientes = () => {
                           to={`/clientes/editar/${cliente._id}`}
                           className="btn btn-sm btn-primary"
                         >
-                          Editar
+                          <i className="fa-solid fa-user-pen"></i>
                         </Link>
                         <button
                           onClick={(e) => eliminarClientes(e, cliente._id)}
                           className="btn btn-sm btn-danger"
                         >
-                          Eliminar
+                          <i className="fa-solid fa-trash"></i>
                         </button>
                       </td>
                     </tr>
