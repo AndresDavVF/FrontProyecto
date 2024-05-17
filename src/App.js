@@ -8,6 +8,8 @@ import AgregarClientes from "./paginas/modulos/AgregarClientes";
 import EditarCliente from "./paginas/modulos/EditarCliente";
 import MostrarProductos from "./paginas/modulos/MostrarProductos";
 import MostrarProveedores from "./paginas/modulos/MostrarProveedores";
+import AgregarProductos from "./paginas/modulos/AgregarProductos";
+import EditarProducto from "./paginas/modulos/EditarProductos";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
             <Route path="/clientes/agregar" exact element={<AgregarClientes/>}></Route>
             <Route path="/clientes/editar/:id" exact element={<EditarCliente/>}></Route>
             <Route path="/productos" exact element={<MostrarProductos/>}></Route>
+            <Route path="/productos/agregar" exact element={<AgregarProductos/>}></Route>
+            <Route path="/productos/editar/:id" exact element={<EditarProducto/>}></Route>
             <Route path="/proveedores" exact element={<MostrarProveedores/>}></Route>
           </Routes>
         </Router>
