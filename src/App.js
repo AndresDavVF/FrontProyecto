@@ -10,6 +10,8 @@ import MostrarProductos from "./paginas/modulos/MostrarProductos";
 import MostrarProveedores from "./paginas/modulos/MostrarProveedores";
 import AgregarProductos from "./paginas/modulos/AgregarProductos";
 import EditarProducto from "./paginas/modulos/EditarProductos";
+import AgregarProveedores from "./paginas/modulos/AgregarProveedores";
+import EditarProveedor from "./paginas/modulos/EditarProveedores";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
             <Route path="/productos/agregar" exact element={<AgregarProductos/>}></Route>
             <Route path="/productos/editar/:id" exact element={<EditarProducto/>}></Route>
             <Route path="/proveedores" exact element={<MostrarProveedores/>}></Route>
+            <Route path="/proveedores/agregar" exact element={<AgregarProveedores/>}></Route>
+            <Route path="/proveedores/editar/:id" exact element={<EditarProveedor/>}></Route>
           </Routes>
         </Router>
       </Fragment>
