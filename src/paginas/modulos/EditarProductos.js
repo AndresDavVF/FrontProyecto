@@ -71,7 +71,7 @@ const EditarProducto = () => {
               </div>
             </div>
             <div className="card-body">
-                <form onSubmit={editarClientes}>
+                <form onSubmit={editarProductos}>
 
                     <div className="card-body" >
                         <div className="form-group">
